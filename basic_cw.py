@@ -31,7 +31,8 @@ Then print the 3 numbers along with their average after the 3rd number is entere
 Refer to example below 
 replacing NUMBER1, NUMBER2, NUMBER3, and THEAVERAGE with the actual values.
 '''
-
+# i did this to myself
+#  could have used commas [,] but i did this to myself
 def problem3():
     num1 = int(input("gimme a number."))
     num2 = int(input("gimme ANOTHER ONE."))
@@ -71,7 +72,7 @@ If the current number is evenly divisible by both 3 and 5 you should print FIZZB
 
 Otherwise, just print the original number
 '''
-
+# another way to do fizzbuzz could be with a for loop
 def FIZZBUZZ():
     endvalue = int(input("enter the ending number"))
     startvalue =1
